@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Video</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F7F6E5;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #76D2DB;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #DA4848;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content-text h2 {
+            color: #DA4848;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* VIDEO */
+        .video-box {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .video-box iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #36064D;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .video-box iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO Aldebaran Alif Syabani</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-text">
+
+        <h2>Video Argumentasi</h2>
+        <p>
+            <i>
+            (Jelaskan secara singkat isi video argumentasi yang kamu buat.)
+            </i>
+        </p>
+
+        <h2>Topik yang Diangkat</h2>
+        <p>
+            <i>
+            (Tuliskan topik argumentasi yang kamu pilih.)
+            </i>
+        </p>
+
+        <h2>Alasan Memilih Topik</h2>
+        <p>
+            <i>
+            (Jelaskan alasan mengapa kamu memilih topik tersebut.)
+            </i>
+        </p>
+
+        <h2>Pesan dan Harapan</h2>
+        <p>
+            <i>
+            (Tuliskan pesan dan harapan yang ingin kamu sampaikan kepada penonton.)
+            </i>
+        </p>
+
+    </div>
+
+    <!-- EMBED VIDEO -->
+    <div class="video-box">
+        <h2>Video Karya Saya</h2>
+        <p><i>(Tempelkan link embed video YouTube di bawah ini)</i></p>
+
+        <!-- CONTOH EMBED YOUTUBE -->
+        <iframe 
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Aldebaran Alif Syabani@2026</p>
+</footer>
+
+</body>
+</html>
